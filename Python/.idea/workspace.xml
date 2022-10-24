@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4c2a834-60e0-45ab-9714-a55a897886c8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/ciclo2/ex01.py" beforeDir="false" afterPath="$PROJECT_DIR$/ciclo2/ex01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ciclo2/ex02.py" beforeDir="false" afterPath="$PROJECT_DIR$/ciclo2/ex02.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ciclo2/ex03.py" beforeDir="false" afterPath="$PROJECT_DIR$/ciclo2/ex03.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ciclo2/ex05.py" beforeDir="false" afterPath="$PROJECT_DIR$/ciclo2/ex05.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
