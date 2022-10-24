@@ -22,10 +22,7 @@ menor = min(lista)
 print('--'*18)
 print(f'\033[36mO Menor Valor entre os três é:\033[m \033[33m {menor}\033[m')
 print('--'*18)
-4
-5
-6
-7
+
 
 
 
