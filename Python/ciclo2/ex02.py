@@ -1,3 +1,4 @@
+#Python 3.10.8
 import math
 while True:
     try:
@@ -18,7 +19,10 @@ if a > (b+c) or b > (a+c) or c > (a+b):
 else:
     p = (a+b+c)/2 # Calculo do Perimetro
     area = math.sqrt(p*(p-a)*(p-b)*(p-c)) # Com o Perímetro calculo a área
-    print(f'A área do triângulo é: {area:.2f}')
+    print('--' * 14)
+    print(f'A \033[36mÁrea\033[m do triângulo é:\033[33m {area:.2f}\033[m')
+    print('--' * 14)
+
     
 
 
