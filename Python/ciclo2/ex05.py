@@ -1,5 +1,8 @@
 # Feito em Python 3.10.8
 from time import sleep
+print('--'*22)
+print('Digite Abaixo para ver uma frase Invertida:')
+print('--'*22)
 # Letra "a" do exercício
 frase = str(input("Escreva uma Frase: ")).strip()
 print()
