@@ -1,5 +1,10 @@
 from time import sleep
 while True:
+    print()
+    print('--' * 11)
+    print('Valor é Primo ou Não?')
+    print('--' * 11)
+    print()
     try:
         Numero = int(input('Digite um Número inteiro entre 1 e 100: '))
         if Numero <= 0 or Numero > 100:
@@ -35,6 +40,8 @@ if AnalisaNumero(Numero) == True:
     print(f'\033[33m{primo}\033[m')
 else:
     print(f'\033[31m{naoprimo}\033[m')
+
+
 
 
 
