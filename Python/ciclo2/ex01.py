@@ -8,7 +8,7 @@ while True:
         else:
             break
     except ValueError:
-        print('Favor Digitar um Valor e não um Texto!')
+        print('Favor Digitar um Número Positivo e não um Texto!')
 
 Anos = math.trunc(IdadeEmDias / 365)
 Meses = math.trunc((IdadeEmDias % 365) / 30)
