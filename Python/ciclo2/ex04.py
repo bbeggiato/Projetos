@@ -1,3 +1,4 @@
+from time import sleep
 while True:
     try:
         Numero = int(input('Digite um Número inteiro entre 1 e 100: '))
@@ -21,8 +22,24 @@ def AnalisaNumero(num):
     else:
         #print('Não é primo!')
         return False
+print()
+print('O Número digitado é Primo?')
+print()
+print('Aguarde, Processando....')
+sleep(2)
+print()
 
-print(AnalisaNumero(Numero))
+primo = True
+naoprimo = False
+if AnalisaNumero(Numero) == True:
+    print(f'\033[33m{primo}\033[m')
+else:
+    print(f'\033[31m{naoprimo}\033[m')
+
+
+
+
+
 
 
 
