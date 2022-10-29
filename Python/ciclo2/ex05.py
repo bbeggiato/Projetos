@@ -1,3 +1,5 @@
+# Feito em Python 3.10.8
+from time import sleep
 # Letra "a" do exercício
 frase = str(input("Escreva uma Frase: ")).strip()
 print()
@@ -10,7 +12,11 @@ frasecerta(frase)
 def inversor(txt):
     return txt[::-1]
 fraseinversa = inversor(frase)
-print(f'A frase maluca ao contrário é: \n\033[32m{fraseinversa}\033[m')
+
+print("A Frase Maluca ao Contrário é: ")
+print("\n Aguarde, Processando a Maluquice....")
+sleep(2.5)
+print(f'\n\033[32m{fraseinversa}\033[m')
 
 
 
