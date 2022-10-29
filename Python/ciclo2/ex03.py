@@ -1,4 +1,5 @@
 # Feito em Python 3.10.8
+from time import sleep
 while True:
     lista = []
     print('--' * 28)
@@ -20,10 +21,17 @@ lista.append(Valor2)
 lista.append(Valor3)
 print()
 print(f'Você Digitou os Valores {lista}')
+print()
 menor = min(lista)
+print('Processando....')
+sleep(2)
 print('--'*18)
 print(f'\033[36mO Menor Valor entre os três é:\033[m \033[33m {menor}\033[m')
 print('--'*18)
+
+
+
+
 
 
 
