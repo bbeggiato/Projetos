@@ -1,5 +1,8 @@
+# Python 3.10.8
+
 from tkinter import *
 
+# Validação para não permitir string nos campos peso e altura
 def valida(input):
   if input.replace('.','',1).isdigit():
     return True
@@ -20,8 +23,21 @@ def analisaDados():
   # Cálculo do IMC jogado a uma variável
   imc = pes / (altmetros * altmetros)
 
-  # Atribui a resposta á res
-  res = f' O IMC  é: {imc:.2f}'
+  # Calcula como a pessoa se enquadra baseado no IMC
+  estado = ''
+  if imc < 18.5:
+    estado = 'MAGREZA'
+  elif imc >= 18.5 and imc <= 24.99:
+    estado = 'NORMAL'
+  elif imc >= 25 and imc <= 29.99:
+    estado = 'SOBREPESO'
+  elif imc >= 30 and imc <= 39.99:
+    estado = 'OBESIDADE'
+  else:
+    estado = "OBESIDADE GRAVE"
+
+  # Atribui a resposta a res
+  res = f' O IMC  é: {imc:.2f}\n\n {estado}'
 
   # Escreve o conteúdo de res
   lb["text"] = res
