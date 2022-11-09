@@ -4,7 +4,7 @@ from tkinter import messagebox
 
 # Validação para não permitir string nos campos peso e altura
 def valida(input):
-  if input.replace('.','',1).isdigit():
+  if input.replace('.', '', 1).isdigit():
     return True
   elif input == "":
     return True
@@ -78,39 +78,39 @@ def sair():
 main = Tk()
 main.title("Cálculo do IMC - Índice de Massa Corporal")
 main.geometry("600x320")
-main.configure(background="#dde")
+main.configure(background="lightblue")
 
 # Campo Nome
-nome = Label(main,text="Nome do Paciente: ",bg="#dde",fg="#000", font="14", anchor=W)
-nome.place(x=30,y=30,width=150,height=30)
-vnome=Entry(main, font="14")
-vnome.place(x=210,y=30,width=350,height=30)
+nome = Label(main, text="Nome do Paciente: ", bg="lightblue", font=14, anchor=W)
+nome.place(x=30, y=30, width=150, height=30)
+vnome = Entry(main, font="14")
+vnome.place(x=210, y=30, width=350, height=30)
 
 # Campo Endereço
-endereco = Label(main,text="Endereço Completo: ",bg="#dde",fg="#000", font="14", anchor=W)
-endereco.place(x=30,y=80,width=150,height=30, )
-vendereco=Entry(main, font="14")
-vendereco.place(x=210,y=80,width=350,height=30)
+endereco = Label(main, text="Endereço Completo: ", font=14,  bg="lightblue", anchor=W)
+endereco.place(x=30, y=80, width=150, height=30)
+vendereco = Entry(main)
+vendereco.place(x=210, y=80, width=350, height=30)
 
 # Campo Altura
-altura = Label(main,text="Altura(cm)",bg="#dde",fg="#000", font="14", anchor=W)
-altura.place(x=30,y=130,width=100,height=30)
-valtura=Entry(main, font="14")
-valtura.place(x=210,y=130,width=100,height=30)
+altura = Label(main, text="Altura(cm)", bg="lightblue", font=14, anchor=W)
+altura.place(x=30, y=130, width=100, height=30)
+valtura = Entry(main, font=14)
+valtura.place(x=210, y=130, width=100, height=30)
 registro = main.register(valida)
-valtura.config(validate="key", validatecommand=(registro,'%P'))
+valtura.config(validate="key", validatecommand=(registro, '%P'))
 
 # Campo Peso
-peso = Label(main,text="Peso (Kg)",bg="#dde",fg="#000", font="14", anchor=W)
-peso.place(x=30,y=180,width=100,height=30)
-vpeso=Entry(main, font="14")
-vpeso.place(x=210,y=180,width=100,height=30)
+peso = Label(main, text="Peso (Kg)", bg="lightblue", font=14, anchor=W)
+peso.place(x=30, y=180, width=100, height=30)
+vpeso = Entry(main, font=14)
+vpeso.place(x=210, y=180, width=100, height=30)
 registro = main.register(valida)
-vpeso.config(validate="key", validatecommand=(registro,'%P'))
+vpeso.config(validate="key", validatecommand=(registro, '%P'))
 
 # Botão Calcular
-btnCalcular = Button(main,text="Calcular",command=analisaDados)
-btnCalcular.place(x=210,y=280,width=70,height=25)
+btnCalcular = Button(main, text="Calcular", command=analisaDados)
+btnCalcular.place(x=210, y=280, width=70, height=25)
 
 # Botão Reiniciar
 btnReiniciar = Button(main,text="Reiniciar", command=reset)
@@ -118,11 +118,11 @@ btnReiniciar.place(x=285,y=280,width=70,height=25)
 
 # Botão Sair
 btnSair = Button(main,text="Sair", command=sair)
-btnSair.place(x=490,y=280,width=70,height=25)
+btnSair.place(x=490, y=280, width=70, height=25)
 
 # Resultado
-lb = Label(main,text="",bg="#fff",fg="#000", font=('arial', 16, 'bold'))
-lb.place(x=320,y=130,width=240,height=135)
+lb = Label(main,text="", bg="#fff", fg="#000", font=('arial', 16, 'bold'))
+lb.place(x=320, y=130, width=240, height=135)
 main.mainloop()
 
 
