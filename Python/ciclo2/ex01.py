@@ -14,9 +14,9 @@ while True:
     except ValueError:
         print('Favor Digitar um Número Positivo e não um Texto!')
 
-Anos = trunc(IdadeEmDias / 365)
-Meses = trunc((IdadeEmDias % 365) / 30)
-Dias = trunc((IdadeEmDias % 365) % 30)
+Anos = floor(IdadeEmDias / 365)
+Meses = floor((IdadeEmDias % 365) / 30)
+Dias = floor((IdadeEmDias % 365) % 30)
 print()
 print('Calculando sua Idade com Exatidão, Processando...')
 sleep(2.5)
