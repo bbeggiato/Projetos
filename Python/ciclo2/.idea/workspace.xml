@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2c720064-a4cd-4d47-8332-6b7e4356444f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Credivar/adicionar.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Credivar/adicionar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Credivar/adicionar_action.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Credivar/adicionar_action.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Credivar/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Credivar/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Credivar/editar.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Credivar/editar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Credivar/editar_action.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Credivar/editar_action.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Credivar/excluir.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Credivar/excluir.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Credivar/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Credivar/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/Python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ciclo2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex01.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex02.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex03.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex04.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex05.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ciclo3/imc.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ciclo3/imc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ciclo5/banco.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ciclo5/banco.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ciclo5/testeimcbd.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ciclo5/testeimcbd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sicoob/adicionar.PHP" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sicoob/adicionar.PHP" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sicoob/adicionar_action.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sicoob/adicionar_action.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sicoob/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sicoob/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sicoob/editar.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sicoob/editar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sicoob/editar_action.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sicoob/editar_action.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sicoob/excluir.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sicoob/excluir.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sicoob/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sicoob/index.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JYdbxjYyOA3P98uhreEZE3oWxM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/github/Projetos-main/Python/ciclo2&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c720064-a4cd-4d47-8332-6b7e4356444f" name="Changes" comment="" />
+      <created>1672259025455</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672259025455</updated>
+    </task>
+    <servers />
+  </component>
+</project>

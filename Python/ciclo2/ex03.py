@@ -6,9 +6,9 @@ while True:
     print('Qual o menor valor entre os 3 Números Digitados Abaixo?')
     print('--'* 28)
     try:
-        Valor1 = int(input('Digite o Primeiro valor: '))
-        Valor2 = int(input('Digite o Segundo valor:  '))
-        Valor3 = int(input('Digite o Terceiro valor: '))
+        Valor1 = int(input('Digite o 1º valor: '))
+        Valor2 = int(input('Digite o 2º valor:  '))
+        Valor3 = int(input('Digite o 3º valor:  '))
 
     except ValueError:
         print('Favor digitar apenas valores numéricos')
